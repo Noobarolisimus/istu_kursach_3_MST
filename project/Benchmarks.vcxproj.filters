@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="benchmarks">
+      <UniqueIdentifier>{E30E65FA-CFC6-A647-38CE-7FA324A54138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mst">
+      <UniqueIdentifier>{D991880B-459B-887C-CE16-9F7C3A1F947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\mst\mst_algorithms.hpp">
+      <Filter>mst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mst\types.hpp">
+      <Filter>mst</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\benchmarks\benchmarks_main.cpp">
+      <Filter>benchmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mst\kruscal.cpp">
+      <Filter>mst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mst\prima.cpp">
+      <Filter>mst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mst\tree_generator.cpp">
+      <Filter>mst</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

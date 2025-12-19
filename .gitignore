@@ -1,0 +1,11 @@
+.cache
+.vs
+.vscode
+bin
+compile_commands
+obj
+*.make
+Makefile
+compile_commands.json
+*.vcxproj.user
+*.csv
